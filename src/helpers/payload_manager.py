@@ -1,20 +1,20 @@
 # it will help to keep the payload e.g of payload is dictionary
+from faker import Faker
 import json
 
-
-
+faker = Faker()
 
 def payload_create_booking():
     payload = {
-        "firstname": "Jimmy",
+        "firstname": "Amit",
         "lastname": "Brown",
-        "totalprice": 4000,
+        "totalprice": 111,
         "depositpaid": True,
         "bookingdates": {
-            "checkin": "2023-03-11",
-            "checkout": "2024-03-14"
+            "checkin": "2018-01-01",
+            "checkout": "2019-01-01"
         },
-        "additionalneeds": "Breakfast with Lunch"
+        "additionalneeds": "Breakfast"
     }
     return payload
 
