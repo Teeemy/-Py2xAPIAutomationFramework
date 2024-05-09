@@ -4,6 +4,7 @@ import json
 
 faker = Faker()
 
+
 def payload_create_booking():
     payload = {
         "firstname": "Amit",
@@ -40,7 +41,6 @@ def payload_create_token():
         "password": "password123"
     }
     return payload
-
 
 # def payload_create_booking_data_excel():
 #     payload = {
